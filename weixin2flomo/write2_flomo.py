@@ -10,7 +10,7 @@ def main():
             while data[j].strip() != "结束":
                 j += 1
             temp_data = data[i:j]
-            tag = temp_data[0].replace("标签：")
+            tag = temp_data[0]
             content = "".join(temp_data[1:])
             send_post_request(tag, content)
             print(tag, content)

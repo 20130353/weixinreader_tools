@@ -84,7 +84,7 @@ def process_highlight_text(filename):
 
 
 if __name__ == "__main__":
-    tag = "#领域/精力管理"
+    tag = "#领域/知识管理/卡片笔记"
     author = "吉姆洛尔"
     book = "《精力管理》"
 
