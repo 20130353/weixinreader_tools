@@ -5,7 +5,6 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-
 def get_have_book_name():
     filename = "have_book_names.txt"
     res = set()

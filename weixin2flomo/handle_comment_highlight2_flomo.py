@@ -84,9 +84,9 @@ def process_highlight_text(filename):
 
 
 if __name__ == "__main__":
-    tag = "#领域/知识管理/卡片笔记"
-    author = "吉姆洛尔"
-    book = "《精力管理》"
+    tag = "#领域/写作"
+    author = "蓑依"
+    book = "《写作的方法：自我提升与价值创造》"
 
     texts = process_highlight_text("highlight.txt")
     for content in texts:
